@@ -5,10 +5,22 @@ public class SmartTV {
     private Integer canal;
     private Integer volume;
 
-    public void SmartTV(Boolean ligada, Integer canal, Integer volume) {
+    public SmartTV(Boolean ligada, Integer canal, Integer volume) {
         this.ligada = ligada;
         this.canal = canal;
         this.volume = volume;
+    }
+
+    public Boolean estaLigada() {
+        return this.ligada;
+    }
+
+    public Integer qualCanal() {
+        return this.canal;
+    }
+
+    public Integer qualVolume() {
+        return this.volume;
     }
 
     public void ligar() {
