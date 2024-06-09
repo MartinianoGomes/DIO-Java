@@ -1,3 +1,5 @@
+package entities;
+
 public class SmartTV {
     private Boolean ligada;
     private Integer canal;
