@@ -7,9 +7,9 @@ package entities;
 * <b>Note:</b> Leia atentamente a documentação desta classes
 * para desfrutar dos recursos oferecidos pelo autor
 *
-* @author  Gleyson Sampaio
+* @author  Martiniano Gomes
 * @version 1.0
-* @since   01/01/2022
+* @since   09/06/2024
 */
 public class Calculadora {
     /**
