@@ -16,3 +16,8 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Documentação em Java
+
+Para implementar uma documentação automática no seu projeto em java, execute no seu terminal aberto na pasta raíz do seu projeto o seguinte comando:
+`javadoc -encoding UTF-8 -docencoding ISO-8859-1  -d ../docs  src/*.java`
